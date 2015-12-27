@@ -42,6 +42,6 @@ run_analysis <- function() {
 # Create a data table of averages for each activity and each subject 
       DT <- data.table(data)
       avgsData <- DT[, lapply(.SD, mean), by=c("subjectId", "activity")]
-      write.table(avgsData, "avgtidy_data.txt")
+      write.table(avgsData, "avgtidy_data.txt", row.names = FALSE)
 }
 
