@@ -37,7 +37,6 @@ run_analysis <- function() {
 
 # Merge subject, X and y data tables into one data table and write it into a text file
       data <- cbind(subject, X, activity)
-      write.table(data, "tidy_data.txt", row.names = FALSE)
 
 # Create a data table of averages for each activity and each subject 
       DT <- data.table(data)

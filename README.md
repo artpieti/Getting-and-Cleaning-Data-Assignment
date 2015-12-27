@@ -19,7 +19,9 @@ Instructions:
 4. Source the **run_analysis.R** script
 
 5. Run the **run_analysis()** function and after it's execution, 
-   find the two files containing the new data from your working directory
+   find the text file containing the required tidy data from your working directory
+   
+Note: The R package **data.table** needs to be installed for the function to work
    
 For more deatiled information on how the **run_analysis()** function works, 
 refer to the comments within the code

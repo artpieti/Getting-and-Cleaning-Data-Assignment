@@ -13,9 +13,8 @@ The assignment was to produce two tidy data sets from the source data. Below is 
 5. Loaded source variable names and activity labels
 6. Selected the required features (the mean and standard deviation variables)
 7. Merged "subject, "X" and "y" data tables into one data table
-8. Wrote the first tidy data set into "tidy_data.txt" file
-9. Created another data table for the averages of each variable using the data.table package
-10. Wrote the second tidy data set into "avgtidy_data" file 
+8. Created a new data table for the averages of each variable using the data.table package
+9. Wrote the final tidy data set into "avgtidy_data.txt" file 
 
 ##Variables
 
